@@ -7,10 +7,6 @@ type ProductCounterPropsType = {
   };
 };
 
-// type Product = {
-//   productName: string;
-//   count?: number;
-// };
 const ProductCounter: React.FC<ProductCounterPropsType> = (props) => {
   const {
     product: { productName, count = "Нет информации" },

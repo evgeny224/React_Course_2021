@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Form from "./Form";
 import ProductCounter from "./ProductCounter";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         count={orangeCounter}
         setCount={setOrangeCounter}
       />
+      <Form />
     </div>
   );
 };

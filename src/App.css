@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.page_wpapper {
+  width:  100vw;
+  height:  100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:  center;
+}
 
 @keyframes App-logo-spin {
   from {

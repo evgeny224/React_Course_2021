@@ -1,17 +1,12 @@
 import React from "react";
-import Footer from "../../Components/Common/Footer";
-import Header from "../../Components/Common/Header";
+import PageWrapper from "../../Components/Common/PageWrapper";
 import Registration from "../../Components/Registation";
 
-const RegistrationPage = () => {
+const RegistrationPage: React.FC = () => {
   return (
-    <div className="page_wrapper">
-      <Header />
-      <main className="main">
-        <Registration />
-      </main>
-      <Footer />
-    </div>
+    <PageWrapper>
+      <Registration />
+    </PageWrapper>
   );
 };
 
